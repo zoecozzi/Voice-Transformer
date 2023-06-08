@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RaveProject",
-    "slug": "RaveProject",
+    "name": "Voice Transformer",
+    "slug": "Voice_Transformer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app requires access to the microphone."
+      }
     },
     "android": {
       "adaptiveIcon": {
